@@ -1,0 +1,8 @@
+{
+  "name": "jeel-tech-website",
+  "private": true,
+  "description": "موقع جيل تك التعريفي",
+  "scripts": {
+    "check": "node scripts/check-site.mjs"
+  }
+}
