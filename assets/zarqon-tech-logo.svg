@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-labelledby="title desc">
 <title id="title">ZARQON TECH ribbon emblem</title>
-<desc id="desc">Blue arched ribbon with a silver crossing ribbon, matching the approved ZARQON TECH brand concept.</desc>
+<desc id="desc">The original concept's flowing blue arch and silver crossing ribbon, recreated to match the reference.</desc>
 <defs>
- <linearGradient id="blue" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#18E4FF"/><stop offset=".38" stop-color="#078BFF"/><stop offset=".78" stop-color="#0066FF"/><stop offset="1" stop-color="#0341B8"/></linearGradient>
- <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".45" stop-color="#E0E8F4"/><stop offset="1" stop-color="#7E96B6"/></linearGradient>
- <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#002D75"/><stop offset="1" stop-color="#07162C"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#15E5FF"/><stop offset=".28" stop-color="#078FFF"/><stop offset=".58" stop-color="#006BFF"/><stop offset="1" stop-color="#0042B7"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".38" stop-color="#E9F0FA"/><stop offset=".72" stop-color="#A7BBD5"/><stop offset="1" stop-color="#7189A8"/></linearGradient>
+ <linearGradient id="under" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#002D73"/><stop offset="1" stop-color="#07142C"/></linearGradient>
 </defs>
-<!-- Main rising blue ribbon / arch -->
-<path d="M8 83 39 28C45 17 53 7 61 11 68 14 73 28 80 39L109 81C114 89 108 96 99 99L85 104 57 62 43 83C36 95 29 101 19 98 8 95 3 90 8 83Z" fill="url(#blue)"/>
-<!-- Dark folded underside gives the ribbon depth -->
-<path d="M57 62 75 48 95 78 108 84Q112 91 101 97L85 104 57 62Z" fill="url(#shadow)" opacity=".72"/>
-<!-- Silver ribbon crosses in front and sweeps up from the left -->
-<path d="M8 83C19 74 31 66 43 58L54 51 70 70C78 79 88 85 103 88L88 96C75 92 64 83 54 72L44 61 22 91C16 96 8 92 8 83Z" fill="url(#silver)"/>
-<!-- Highlight edge on the crossing ribbon -->
-<path d="M11 82C23 73 34 65 44 59L50 63C37 72 25 82 16 89Z" fill="#FFFFFF" opacity=".8"/>
-<!-- Blue front fold that reconnects the symbol -->
-<path d="M43 58 54 51 70 70 83 82 72 87 55 70 44 61 30 82 22 91 17 89 39 61Z" fill="url(#blue)"/>
-<!-- Cyan rim highlight -->
-<path d="M45 24C50 15 55 11 60 13 66 15 70 26 76 36L103 76" fill="none" stroke="#49E8FF" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+<!-- tall blue ribbon rises into an arch and curves down to the right -->
+<path d="M7 73 C18 56 31 34 43 16 C49 7 57 3 64 8 C71 13 77 31 83 43 L111 76 C116 83 111 89 103 92 L90 97 C82 99 76 95 71 87 L54 61 L40 81 C32 93 23 99 14 95 C5 92 2 82 7 73Z" fill="url(#blue)"/>
+<!-- deep inner fold creates the recognizable hollow curve -->
+<path d="M41 55 C49 43 56 36 63 39 C69 41 75 55 81 65 L99 83 L89 88 L74 78 L57 53 L43 69 L31 81 L20 88Z" fill="url(#under)"/>
+<!-- silver ribbon crosses from lower left to center-right -->
+<path d="M7 73 C19 62 34 51 48 45 C55 42 62 45 69 53 L79 65 C86 74 96 80 110 81 L98 89 C84 87 72 79 63 69 L52 57 C39 64 26 77 15 91 C9 96 2 86 7 73Z" fill="url(#silver)"/>
+<!-- blue over-under fold on the center -->
+<path d="M39 52 C45 48 49 46 53 46 L65 60 L78 76 C84 82 91 86 99 88 L90 94 C78 90 69 82 61 72 L51 59 L38 69 L27 80 L19 86Z" fill="url(#blue)"/>
+<!-- specular edges -->
+<path d="M44 16 C50 7 57 4 63 9 C69 13 75 30 81 42 L106 74" fill="none" stroke="#58EDFF" stroke-width="1.8" stroke-linecap="round" opacity=".95"/>
+<path d="M9 73 C21 62 35 52 48 46 C55 43 61 46 68 54" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" opacity=".9"/>
 </svg>
