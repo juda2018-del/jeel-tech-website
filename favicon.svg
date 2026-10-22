@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<rect width="64" height="64" rx="14" fill="#070F19"/>
-<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00D6FF"/><stop offset="1" stop-color="#0066FF"/></linearGradient><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF"/><stop offset="1" stop-color="#8197B3"/></linearGradient></defs>
-<path d="M7 43 24 13Q29 5 35 15L57 43Q60 49 53 51L44 54 28 31 19 47Q14 55 8 49Q4 47 7 43Z" fill="url(#b)"/>
-<path d="M8 43 24 35 29 31 40 44 53 48 44 54 34 50 25 38 15 48 8 49Q4 47 8 43Z" fill="url(#s)"/>
+<rect width="64" height="64" rx="13" fill="#070F19"/>
+<defs><linearGradient id="b" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#18E4FF"/><stop offset=".45" stop-color="#078BFF"/><stop offset="1" stop-color="#0341B8"/></linearGradient><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF"/><stop offset="1" stop-color="#8197B3"/></linearGradient></defs>
+<path d="M4 43 21 15C25 8 30 3 34 6 39 8 42 17 46 23L60 43 49 51 34 28 26 41C22 49 16 54 9 50 4 48 2 46 4 43Z" fill="url(#b)"/>
+<path d="M4 43 25 30 31 26 40 38C45 43 50 46 59 46L49 52C40 49 34 43 29 37L24 32 10 49 5 48Z" fill="url(#s)"/>
+<path d="M25 30 31 26 40 38 46 43 39 46 30 37 24 32 16 44 10 49 8 47Z" fill="url(#b)"/>
 </svg>
